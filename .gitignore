@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+mcp-shield.log
+mcp-shield.sqlite
+mcp-shield.sqlite-journal
+.DS_Store
+.env
+.env.local
