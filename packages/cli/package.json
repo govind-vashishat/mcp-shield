@@ -1,0 +1,15 @@
+{
+  "name": "mcp-shield",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "mcp-shield": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@mcp-shield/core": "workspace:*"
+  }
+}
